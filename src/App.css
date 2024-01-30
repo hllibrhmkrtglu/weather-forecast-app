@@ -1,38 +1,50 @@
+body {
+    background-color: rgb(9, 88, 101);
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittle {
+    font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.citySerch {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    border: 2px solid darkcyan;
 }
 
-.App-link {
-  color: #61dafb;
+.daily-weather-container {
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.daily-weather {
+    width: 30%;
+    padding: 1rem;
+    border-right: 1px solid green;
+
+}
+
+.daily-weather:last-child {
+    border-right: none;
+    /* Son tablo hariç diğer tüm tablolara sağ tarafta çizgi ekle */
+}
+
+.contain{
+    margin: 5rem;
 }
